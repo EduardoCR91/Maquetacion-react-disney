@@ -1,0 +1,101 @@
+/* Resetting default styles and setting base font */
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Main container for the entire navbar */
+.navbar-container {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Top navigation bar styles */
+.top-nav {
+    background-color: #002664; /* Dark blue from the site */
+    color: #ffffff;
+    padding: 8px 40px;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    align-items: center;
+}
+
+.top-nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* General link styles */
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.top-link {
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    color: #9cdcf9; /* Light blue for hover effect */
+}
+
+/* Main navigation bar styles */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.main-nav-left,
+.main-nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-center {
+    display: flex;
+    gap: 25px;
+}
+
+.disney-logo {
+    height: 40px; /* Adjust height as needed */
+}
+
+.main-link {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.main-link:hover {
+    color: #0073e0; /* Disney's primary blue for hover */
+}
+
+/* Icon styling */
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    width: 1em; /* Makes the icon size relative to the font size */
+    height: 1em;
+}
+
+.icon-link {
+    color: #333;
+}
