@@ -17,7 +17,7 @@ const GlobalStyles = () => (
     .navbar-container {
         width: 100%;
         background-color: #002664; /* Dark blue background for the entire navbar */
-        color: #ffffff;
+        color: #ffffffff;
     }
 
     /* Top navigation bar styles */
@@ -27,6 +27,7 @@ const GlobalStyles = () => (
         justify-content: space-between; /* Space between left and right items */
         align-items: center;
         font-size: 12px;
+        color: #9cdcf9;
     }
 
     .top-nav-right {
@@ -80,6 +81,7 @@ const GlobalStyles = () => (
 
     .nav-link:hover {
         color: #9cdcf9; /* Light blue for hover effect */
+        text-decoration: underline;
     }
 
     /* Main navigation bar styles */
@@ -88,6 +90,7 @@ const GlobalStyles = () => (
         align-items: center;
         padding: 10px 40px;
         border-top: 1px solid #004a9e; /* Separator line */
+        background-color: #002664; /* Dark blue background for the entire navbar */
     }
 
     .main-nav-links {
@@ -98,7 +101,8 @@ const GlobalStyles = () => (
     }
 
     .disney-logo {
-        height: 40px; /* Adjust height as needed */
+        height: 80px; /* Adjust height as needed */
+        background-color: #ffffffff;
     }
 
     .main-link {
@@ -156,7 +160,7 @@ const WorldIcon = () => (
 // --- Data Structure ---
 const navData = {
     logo: {
-        src: 'https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_white@2x-f96bdd0f.png', // Using white logo
+        src: 'https://assets.stickpng.com/images/61378edc4b96600004f676ee.png', // Using white logo
         alt: 'Walt Disney World Logo',
         href: '#'
     },
