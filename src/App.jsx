@@ -103,6 +103,7 @@ const GlobalStyles = () => (
     .disney-logo {
         height: 80px; /* Adjust height as needed */
         background-color: #ffffffff;
+        padding: 1rem;
     }
 
     .main-link {
@@ -164,9 +165,9 @@ const navData = {
         alt: 'Walt Disney World Logo',
         href: '#'
     },
-    topLeftLink: { text: 'Visita Disney.com', href: '#' },
+    topLeftLink: { text: 'Visita Disney.com', href: 'https://www.disneylatino.com/' },
     topRightLinks: [
-        { id: 1, text: 'Ingresar o Crear una Cuenta', href: '#' },
+        { id: 1, text: 'Ingresar o Crear una Cuenta', href: 'https://disneyworld.disney.go.com/es-co/' },
         { id: 2, type: 'separator' },
         { id: 3, text: 'Colombia (Español)', href: '#', icon: <WorldIcon /> }
     ],
